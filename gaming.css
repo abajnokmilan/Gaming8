@@ -1,8 +1,10 @@
-
+.unrealbody{
+    background: linear-gradient(90deg, hsla(4, 100%, 70%, 1) 0%, hsla(231, 64%, 70%, 1) 100%);
+}
 .unrealfo{
 position: relative;
 color: white;
-margin-bottom: 1vw;
+margin-bottom: 0vw;
 }
 .unrealtext{
    position: absolute;
@@ -21,28 +23,31 @@ margin-bottom: 1vw;
     font-size:calc(2vw);
 }
 .h2{
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     background-color: #8456cf;
     border-radius: 0.5vw;
     color: #150a26;
     text-transform: uppercase;
     letter-spacing: 0.25vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
 }
 .h3{
-    font-size: 1.25vw;
+    font-size: 1.6vw;
     color: #8456cf;
 }
 .unrealsection{
     background-color: #150a26;
     color: white;
     border-radius: 1vw;
-    padding: 1vw 1vw 0vw 1vw;
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 1vw;
 }
 .row{
     margin-top: 1vw;
     margin-bottom: 1vw;
 }
-img{
+.unrealimg{
     margin-bottom: 1vw;
 }
 .hidden{
@@ -60,4 +65,10 @@ img{
     .hidden{
         transition: none;
     }
+}
+.p{
+    margin: 0;
+    padding: 0;
+    font-size: 1.4vw;
+    margin-top: 0.5vw;
 }
