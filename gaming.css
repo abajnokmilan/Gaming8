@@ -48,6 +48,11 @@ margin-bottom: 0vw;
     font-size: 1.6vw;
     color: #8456cf;
 }
+.jatekh3{
+    font-size: 1.6vw;
+    color: #150a26;
+    font-weight: 600;
+}
 .unrealsection{
     background-color: #150a26;
     color: white;
@@ -106,6 +111,7 @@ margin-bottom: 0vw;
     margin-top: 0.5vw;
     
     color: #150a26;
+    font-weight: 500;
 
 
 }
