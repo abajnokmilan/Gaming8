@@ -35,9 +35,8 @@ margin-bottom: 0vw;
 }
 .jatekh2{
     font-size: 1.8vw;
-    background-color: #150a26;
     border-radius: 0.5vw;
-    color: #8456cf;
+    color: #150a26;
     text-transform: uppercase;
     letter-spacing: 0.25vw;
     padding-left: 0.5vw;
@@ -62,6 +61,7 @@ margin-bottom: 0vw;
 }
 .unrealjatek{
     margin: 1vw;
+    padding: 1vw 1vw 1vw 1vw;
 }
 
 .row{
@@ -109,9 +109,7 @@ margin-bottom: 0vw;
     padding: 0;
     font-size: 1.4vw;
     margin-top: 0.5vw;
-    
     color: #150a26;
     font-weight: 500;
-
 
 }
