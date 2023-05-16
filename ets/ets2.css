@@ -4,7 +4,7 @@
 .unrealfo{
 position: relative;
 color: white;
-margin-bottom: 0rem;
+margin-bottom: 0vw;
 }
 .unrealtext{
    position: absolute;
@@ -20,59 +20,57 @@ margin-bottom: 0rem;
     filter: blur(2px);
 }
 .h1{
-    font-size:calc(1.65rem);
+    font-size:calc(2vw);
 }
 .unrealh2{
-    font-size: 1.7rem;
+    font-size: 1.8vw;
     background-color: #8456cf;
-    border-radius: 0.5rem;
+    border-radius: 0.5vw;
     color: #150a26;
     text-transform: uppercase;
-    letter-spacing: 0.25rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    letter-spacing: 0.25vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
     font-weight: 500;
 }
 .jatekh2{
-    font-size: 1.7rem;
-    border-radius: 0.5rem;
+    font-size: 1.8vw;
+    border-radius: 0.5vw;
     color: #150a26;
     text-transform: uppercase;
-    letter-spacing: 0.25rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    letter-spacing: 0.25vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
     font-weight: 500;
 }
 .h3{
-    font-size: 1.6rem;
+    font-size: 1.6vw;
     color: #8456cf;
-    margin-bottom: 0.5rem;
 }
 .jatekh3{
-    font-size: 1.6rem;
+    font-size: 1.2vw;
     color: #150a26;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
+    font-weight: 500;
 }
 .unrealsection{
     background-color: #150a26;
     color: white;
-    border-radius: 1rem;
-    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 1vw;
+    padding: 1vw 1vw 1vw 1vw;
     margin: 1vw;
 }
 .unrealjatek{
     margin: 1vw;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1vw 1vw 1vw 1vw;
 }
 
 .row{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
 }
 .unrealimg{
-    margin-bottom: 1rem;
-    margin-top: 0.5rem;
+    margin-bottom: 1vw;
+
 }
 .hidden1{
     opacity: 0;
@@ -104,25 +102,32 @@ margin-bottom: 0rem;
 .p{
     margin: 0;
     padding: 0;
-    font-size: 1.3rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 1.4vw;
+    margin-top: 0.5vw;
 }
 .pjatek{
     margin: 0;
     padding: 0;
-    font-size: 1.3rem;
-    margin-top: 0.5rem;
+    font-size: 1.4vw;
+    margin-top: 0.5vw;
     color: #150a26;
     font-weight: 500;
+
 }
-.navbar{
-    background-color: #150a26;
-    color: #8456cf;
+
+.kihivas{
+    position: relative;
+top: 80px;
 }
-.nav-link{
-    color: #8456cf;
+
+.dlckep{
+    height: 400px;
 }
-.active{
-    color: white;
+
+.dlc-map{
+    width: 450px;
+}
+
+.communitypic{
+    width: 580px;
 }
