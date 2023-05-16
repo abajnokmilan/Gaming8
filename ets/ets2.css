@@ -1,0 +1,133 @@
+.unrealbody{
+    background: linear-gradient(90deg, hsla(4, 100%, 70%, 1) 0%, hsla(231, 64%, 70%, 1) 100%);
+}
+.unrealfo{
+position: relative;
+color: white;
+margin-bottom: 0vw;
+}
+.unrealtext{
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1%;
+  width: 70%;
+}
+.unrealkep{
+    filter: blur(2px);
+}
+.h1{
+    font-size:calc(2vw);
+}
+.unrealh2{
+    font-size: 1.8vw;
+    background-color: #8456cf;
+    border-radius: 0.5vw;
+    color: #150a26;
+    text-transform: uppercase;
+    letter-spacing: 0.25vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    font-weight: 500;
+}
+.jatekh2{
+    font-size: 1.8vw;
+    border-radius: 0.5vw;
+    color: #150a26;
+    text-transform: uppercase;
+    letter-spacing: 0.25vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    font-weight: 500;
+}
+.h3{
+    font-size: 1.6vw;
+    color: #8456cf;
+}
+.jatekh3{
+    font-size: 1.2vw;
+    color: #150a26;
+    font-weight: 500;
+}
+.unrealsection{
+    background-color: #150a26;
+    color: white;
+    border-radius: 1vw;
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 1vw;
+}
+.unrealjatek{
+    margin: 1vw;
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+.row{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.unrealimg{
+    margin-bottom: 1vw;
+
+}
+.hidden1{
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 3s;
+}
+.hidden2{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(+20%);
+    transition: all 2.5s;
+}
+.hiddenfo{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(-20%);
+    transition: all 2.75s;
+}
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translate(0);
+}
+@media(prefers-reduced-motion) {
+    .hidden{
+        transition: none;
+    }
+}
+.p{
+    margin: 0;
+    padding: 0;
+    font-size: 1.4vw;
+    margin-top: 0.5vw;
+}
+.pjatek{
+    margin: 0;
+    padding: 0;
+    font-size: 1.4vw;
+    margin-top: 0.5vw;
+    color: #150a26;
+    font-weight: 500;
+
+}
+
+.kihivas{
+    position: relative;
+top: 80px;
+}
+
+.dlckep{
+    height: 400px;
+}
+
+.dlc-map{
+    width: 450px;
+}
+
+.communitypic{
+    width: 580px;
+}
