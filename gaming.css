@@ -115,3 +115,14 @@ margin-bottom: 0rem;
     margin-top: 0.5rem;
     color: #150a26;
     font-weight: 500;
+}
+.navbar{
+    background-color: #150a26;
+    color: #8456cf;
+}
+.nav-link{
+    color: #8456cf;
+}
+.active{
+    color: white;
+}
