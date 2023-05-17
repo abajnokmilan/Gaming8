@@ -168,3 +168,10 @@ margin-bottom: 0rem;
     background-color: #150a26;
     width: 12.5rem;
 }
+.navbar-brand:hover{
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.navbar-brand:focus{
+    color: white !important;
+}
