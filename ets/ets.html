@@ -17,12 +17,12 @@
 </head>
 
 <body class="unrealbody">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-sm fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">Logo</a>
+            <a class="navbar-brand" href="../index.html">Főoldal</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+              </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
 
@@ -30,35 +30,44 @@
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Unreal
                             Engine</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="unreal.html">Mi is ez?</a></li>
-                            <li><a class="dropdown-item" href="unreal.html #mukodes">Hogyan működik?</a></li>
-                            <li><a class="dropdown-item" href="unreal.html #jatekok">Játékok az Unreal-lel</a></li>
-                            <li><a class="dropdown-item" href="unreal.html #alkotasok">Kevin saját alkotásai</a></li>
+                            <li><a class="dropdown-item" href="../unreal engine/unreal.html">Mi is ez?</a></li>
+                            <li><a class="dropdown-item" href="../unreal engine/unreal.html #mukodes">Hogyan
+                                    működik?</a>
+                            </li>
+                            <li><a class="dropdown-item" href="../unreal engine/unreal.html #jatekok">Játékok az
+                                    Unreal-lel</a></li>
+                            <li><a class="dropdown-item" href="../unreal engine/unreal.html #alkotasok">Kevin saját
+                                    alkotásai</a></li>
                         </ul>
                     </li>
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">F1 2022</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="f1 22.html">Link</a></li>
-                            <li><a class="dropdown-item" href="f1 22.html">Another link</a></li>
-                            <li><a class="dropdown-item" href="f1 22.html">A third link</a></li>
+                            <li><a class="dropdown-item" href="../forma1/forma1.html">Gameplay</a></li>
+                            <li><a class="dropdown-item" href="../forma1/futamok 2022.html">Futamok</a></li>
+                            <li><a class="dropdown-item" href="../forma1/Istállók.html">Istállók</a></li>
+                            <li><a class="dropdown-item" href="../forma1/Versenyzők.html">Versenyzők</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Fifa</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">FIFA 23</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Link</a></li>
-                            <li><a class="dropdown-item" href="#">Another link</a></li>
-                            <li><a class="dropdown-item" href="#">A third link</a></li>
+                            <li><a class="dropdown-item" href="../fifa/fifa.html">Bevezető</a></li>
+                            <li><a class="dropdown-item" href="../fifa/fifa.html #ultimate">Ultimate Team</a>
+                            </li>
+                            <li><a class="dropdown-item" href="../fifa/fifa.html #gameplay">Játékmódok</a></li>
+                            <li><a class="dropdown-item" href="../fifa/fifa.html #karrier">Karrier Mód</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Euro Truck
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Euro Truck
                             Simulator 2</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="ets.html">Link</a></li>
-                            <li><a class="dropdown-item" href="#">Another link</a></li>
-                            <li><a class="dropdown-item" href="#">A third link</a></li>
+                            <li><a class="dropdown-item" href="ets.html">A játék lényege</a></li>
+                            <li><a class="dropdown-item" href="#jatekelmeny">Játékélmény</a></li>
+                            <li><a class="dropdown-item" href="#dlc">Map DLC-k</a></li>
+                            <li><a class="dropdown-item" href="#kepek">Játékban készített képek</a></li>
                         </ul>
                     </li>
 
@@ -86,7 +95,7 @@
             <div class="row hidden2">
                 <div class="col-xl-6">
 
-                    <span class="h3 kihivas"> Az Euro Truck Simulator 2 valósághű grafikával és részletes járművekkel
+                    <span class="p kihivas"> Az Euro Truck Simulator 2 valósághű grafikával és részletes járművekkel
                         rendelkezik, amelyek lehetővé teszik, hogy érezd a teherautók vezetésének kihívásait. A játék
                         során számos feladattal találkozol majd, beleértve a rakományok szállítását, az
                         ügyfélkapcsolatok kezelését és az autók fejlesztését is.</span>
@@ -104,7 +113,7 @@
     <div class="unrealsection hidden1" id="mukodes">
         <div class="row hidden2">
             <div class="col-xl-6 mx-auto text-center">
-                <span class="unrealh2">DLC-kkel Gazdagított Élethű Játékélmény</span>
+                <span class="unrealh2" id="jatekelmeny">DLC-kkel Gazdagított Élethű Játékélmény</span>
             </div>
         </div>
         <div class="row hidden2">
@@ -128,7 +137,7 @@
     </div>
     <div class="unrealsection hidden1">
         <div class="col-xl-6 mx-auto text-center">
-            <span class="unrealh2">Map DLC-k</span>
+            <span class="unrealh2" id="dlc">Map DLC-k</span>
         </div>
         <div class="row hidden2">
             <div class="col-xl-7">
@@ -221,7 +230,7 @@
             </div>
         </div>
     </div>
-    <div class="unrealjatek" id="jatekok">
+    <div class="unrealjatek" id="kepek">
         <div class="row hidden1">
             <div class="col-xl-8 mx-auto text-center">
                 <span class="jatekh2">Közösség által készített képek</span>
@@ -230,7 +239,7 @@
         </div>
         <div class="row hidden2">
             <span class="jatekh3">
-                
+
             </span>
         </div>
         <div class="row hidden2">
